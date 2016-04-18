@@ -280,7 +280,7 @@ public class SearchDatabase extends AppCompatActivity {
         }
 
         /**
-         * 1. Get a Writeable reference to the database using the db variable (Remember the
+         * 1. Get a Writable reference to the database using the db variable (Remember the
          *    try-catch block. The next two steps should go in your try block)
          * 2. Use the EmployeeDatabase's deleteElement method to delete entries and set the method
          *    call to equal numRowsDeleted. Use the whereToDelete and elementsToDelete variables for

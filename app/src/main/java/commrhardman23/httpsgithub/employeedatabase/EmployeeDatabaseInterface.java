@@ -39,7 +39,7 @@ public class EmployeeDatabaseInterface extends AppCompatActivity {
          *    new EmployeeDatabaseHelper(this, null, null, 0);
          * 2. Create variables for all information stored in the Employee database
          * 3. Create a ContentValues variable
-         * 4. Get a Writeable Database reference using the variable name db (Remember your
+         * 4. Get a Writable Database reference using the variable name db (Remember your
          *    try-catch block. The if-else statement that follows should also go in your try block).
          */
 
