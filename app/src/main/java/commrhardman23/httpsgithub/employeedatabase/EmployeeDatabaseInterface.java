@@ -37,10 +37,10 @@ public class EmployeeDatabaseInterface extends AppCompatActivity {
         /**
          * 1. Create a new EmployeeDatabaseHelper variable. You will need to use the following call:
          *    new EmployeeDatabaseHelper(this, null, null, 0);
-         * 2. Get a Writeable Database reference using the variable name db (Remember your
-         *    try-catch block. The code that follows should also go in your try block).
-         * 3. Create variables for all information stored in the Employee database
-         * 4. Create a ContentValues variable
+         * 2. Create variables for all information stored in the Employee database
+         * 3. Create a ContentValues variable
+         * 4. Get a Writeable Database reference using the variable name db (Remember your
+         *    try-catch block. The if-else statement that follows should also go in your try block).
          */
 
         if(edtxtName.getText().length() == 0 || edtxtPosition.getText().length() == 0 ||
@@ -51,7 +51,7 @@ public class EmployeeDatabaseInterface extends AppCompatActivity {
         } else {
 
             /**
-             * 1. Set each variable to get the values from the EditTexts
+             * 1. Set each variable equal to the values from the EditTexts
              * 2. put each value into the ContentValues variable
              * 3. Call the EmployeeDatabaseHelper's insertElement method
              * 4. Display that the element has been added successfully
